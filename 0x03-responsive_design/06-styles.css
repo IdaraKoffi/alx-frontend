@@ -1,0 +1,27 @@
+/* Menu Btn */
+.menu-btn {
+    display: none; /* Hide checkbox */
+}
+
+/* When checked */
+.menu-btn:checked ~ .navbar-menu {
+    display: block; /* Show menu */
+}
+
+.navbar-menu {
+    max-height: 100%; /* Show menu */
+    overflow: inherit;
+}
+
+/* Hero section adjustments */
+@media (max-width: 767px) {
+    .section-hero {
+        margin: -0.1rem 0;
+    }
+    .hero-homepage {
+        background-position: 85% 0;
+    }
+    .section-body {
+        padding: 2rem;
+    }
+}

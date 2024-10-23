@@ -1,0 +1,22 @@
+/* Responsive Image Styles */
+img {
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes bottom whitespace */
+}
+
+/* Section Styling */
+.section {
+    padding: 4rem 2rem; /* Add padding for sections */
+    text-align: center; /* Center text for better readability */
+}
+
+h1 {
+    font-size: 2.5rem; /* Adjust heading size */
+    margin-bottom: 2rem; /* Space below heading */
+}
+
+p {
+    font-size: 1.5rem; /* Adjust paragraph text size */
+    line-height: 1.6; /* Improve line spacing for readability */
+}

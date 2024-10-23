@@ -1,0 +1,13 @@
+/* Container */
+.container {
+    max-width: 1200px; /* Adjust this value based on your design */
+    margin: 0 auto;
+    padding: 0 1rem; /* Optional */
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+    .container {
+        max-width: 90%; /* Adjust for smaller screens */
+    }
+}

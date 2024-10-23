@@ -1,0 +1,15 @@
+/* Navbar */
+.menu-btn {
+    display: none;
+}
+
+.navbar-menu {
+    display: none;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+    .navbar-menu {
+        display: block; /* When checked */
+    }
+}
