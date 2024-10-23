@@ -1,0 +1,17 @@
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: font-family-base;
+    font-weight: font-weight-regular;
+    font-size: font-size-medium;
+    line-height: line-height-base;
+    color: text-color;
+}
